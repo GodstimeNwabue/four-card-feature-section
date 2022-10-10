@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  hsl(0, 0%, 98%);
+    font-size: 18px;
+    padding: 1rem 1rem;
+}
+
+#tech {
+    margin-top: 4rem;
+}
+
+#tech .tech_text {
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.box_cards, .team_build {
+    background-color: white;
+    box-shadow: 7px 7px 10px hsl(229, 6%, 66%);
+    padding: 1.7rem;
+    line-height: 1.8rem;
+    border-radius: 10px;
+}
+
+.karma {
+    background-color: white;
+    margin-top: 1.5rem;
+    box-shadow: 7px 7px 10px hsl(229, 6%, 66%);
+    padding: 1.7rem;
+    line-height: 1.8rem;
+    border-radius: 10px;
+}
+
+.box_cards img, .karma img, .team_build img {
+    padding-top: 1.5rem;
+}
+
+.image_box {
+    text-align: end;
+}
+
+.supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team_build {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+@media (max-width: 430px) {
+    .box {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 703px) {
+    .box {
+        align-items: inherit;
+    }
+}
